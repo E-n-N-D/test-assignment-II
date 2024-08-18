@@ -1,0 +1,20 @@
+nav {
+    background: #282c34;
+    padding: 1rem;
+}
+nav > ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+nav > ul > li {
+    margin: 0;
+}
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover {
+    text-decoration: underline;
+}
