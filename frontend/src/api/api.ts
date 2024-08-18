@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-axios.defaults.baseURL = 'http://localhost:5000/api';
+axios.defaults.baseURL = 'https://test-assignment-ii-1.onrender.com/api';
 
 export const loginUser = async (username: string, password: string) => {
   const response = await axios.post('/auth/login', { username, password });
